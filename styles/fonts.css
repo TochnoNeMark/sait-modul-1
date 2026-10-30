@@ -1,2 +1,15 @@
-/* Шрифты сайта: Montserrat Alternates — основной; Montserrat — только для календаря. */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500;600;800&family=Montserrat:wght@500;600&display=swap");
+@font-face {
+  font-family: "Anglecia Pro Display";
+  src: url("../assets/fonts/AngleciaProDisplay-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anglecia Pro Display";
+  src: url("../assets/fonts/AngleciaProDisplay-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

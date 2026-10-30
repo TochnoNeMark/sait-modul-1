@@ -1,0 +1,109 @@
+.flip {
+  --travel: 100vh;
+  --rot: 180;
+  --mini: 0;
+  --sky: #dbdbdb;
+  --star: #dbdbdb;
+  height: calc(100vh + var(--travel));
+  height: calc(100svh + var(--travel));
+}
+
+.flip__pin {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  background: var(--sky);
+}
+
+.flip__stage {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: calc(1080 * var(--u));
+  transform: translateY(-50%);
+}
+
+.flip__star {
+  position: absolute;
+  left: calc(760 * var(--u));
+  top: calc(340 * var(--u));
+  width: calc(400 * var(--u));
+  height: calc(400 * var(--u));
+  overflow: visible;
+}
+
+.flip__star-body {
+  fill: var(--star);
+  stroke: var(--c-cream);
+  stroke-width: 20;
+}
+
+.flip__lid,
+.flip__pupil {
+  fill: var(--c-ink);
+}
+
+.flip__orbit {
+  position: absolute;
+  inset: 0;
+  transform: rotate(calc(var(--rot) * 1deg));
+  will-change: transform;
+}
+
+.flip__plane {
+  position: absolute;
+  left: calc(1291 * var(--u));
+  top: calc(661 * var(--u));
+  width: calc(494 * var(--u));
+  height: calc(387 * var(--u));
+  overflow: visible;
+}
+
+.flip__mini {
+  opacity: var(--mini);
+}
+
+.flip__mini--48 {
+  left: calc(562 * var(--u));
+  top: calc(139 * var(--u));
+  width: calc(313 * var(--u));
+  height: calc(313 * var(--u));
+}
+
+.flip__mini--45 {
+  left: calc(74 * var(--u));
+  top: calc(107 * var(--u));
+  width: calc(189 * var(--u));
+  height: calc(189 * var(--u));
+}
+
+.flip__mini--47 {
+  left: calc(1451 * var(--u));
+  top: calc(76 * var(--u));
+  width: calc(318 * var(--u));
+  height: calc(318 * var(--u));
+}
+
+.flip__mini--50 {
+  left: calc(60 * var(--u));
+  top: calc(594 * var(--u));
+  width: calc(309 * var(--u));
+  height: calc(309 * var(--u));
+}
+
+.flip__mini--46 {
+  left: calc(906 * var(--u));
+  top: calc(778 * var(--u));
+  width: calc(264 * var(--u));
+  height: calc(264 * var(--u));
+}
+
+.flip__mini--43 {
+  left: calc(1656 * var(--u));
+  top: calc(478 * var(--u));
+  width: calc(100 * var(--u));
+  height: calc(100 * var(--u));
+}

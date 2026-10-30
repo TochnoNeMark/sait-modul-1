@@ -1,25 +1,39 @@
-/* ===== Дизайн-токены ===== */
 :root {
-  --c-header: #4d8aff;
-  --c-pill: #a6c4ff;
-  --c-home: #a5c3ff;
-  --c-accent: #4d89ff;
-  --c-logo: #ffffff;
-  --c-text: #000;
-  --c-white: #fff;
-  /* Производные оттенки (ховеры/состояния) — чтобы не дублировать hex по файлу */
-  --c-accent-hover: #3f78ec;
-  --c-add: #508bff;
-  --c-ok: #2ecc71;
-  --c-pill-hover: #b6cfff;
-  --c-home-hover: #b4ccff;
-  --font: "Montserrat Alternates", sans-serif;
-  --maxw: 1420px;
-  --pad: clamp(12px, 2.5vw, 24px);
-  --header-h: clamp(72px, 7vw, 100px);
-  /* Единые размеры шрифта: заголовки / параграфы / текст кнопок */
-  --fs-h: clamp(30px, 4.2vw, 52px);
-  --fs-p: clamp(16px, 1.8vw, 22px);
-  --fs-btn: clamp(15px, 1.5vw, 20px);
+  --u: calc(100cqw / 1920);
+  --font: "Anglecia Pro Display", "Times New Roman", serif;
+  --c-grey: #dbdbdb;
+  --c-blue: #282382;
+  --c-ink: #141414;
+  --c-cream: #ece4bd;
+  --c-violet: #5751c0;
 }
 
+body {
+  background: var(--c-grey);
+  color: var(--c-ink);
+  font-family: var(--font);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+.site {
+  container-type: inline-size;
+  overflow-x: clip;
+}
+
+.sec {
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: calc(1080 * var(--u));
+}
+
+.sec--clip {
+  overflow: clip;
+}
+
+.sec img {
+  display: block;
+  position: absolute;
+  max-width: none;
+}

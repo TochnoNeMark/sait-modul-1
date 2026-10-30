@@ -1,0 +1,130 @@
+.sec--8 {
+  background: var(--c-blue);
+}
+
+.d8-line {
+  position: absolute;
+  width: calc(1991 * var(--u));
+  height: calc(23 * var(--u));
+  background: var(--c-ink);
+}
+
+.d8-line--1 {
+  left: calc(-43 * var(--u));
+  top: 0;
+}
+
+.d8-line--2 {
+  left: calc(-43 * var(--u));
+  top: calc(34 * var(--u));
+}
+
+.d8-line--3 {
+  left: calc(-42 * var(--u));
+  top: calc(583 * var(--u));
+}
+
+.d8-band {
+  position: absolute;
+  left: 0;
+  top: calc(57 * var(--u));
+  width: calc(1920 * var(--u));
+  height: calc(526 * var(--u));
+  background: var(--c-cream);
+}
+
+.d8-dashes-top,
+.d8-dashes-bottom {
+  left: calc(19 * var(--u));
+  width: calc(1870 * var(--u));
+  height: calc(23 * var(--u));
+}
+
+.d8-dashes-top {
+  top: calc(217 * var(--u));
+}
+
+.d8-dashes-bottom {
+  top: calc(400 * var(--u));
+}
+
+.d8-title,
+.d8-subtitle,
+.d8-slogan {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  font-weight: 400;
+  font-style: italic;
+  font-size: calc(108 * var(--u));
+  line-height: calc(151.2 * var(--u));
+  letter-spacing: 0;
+  white-space: pre;
+  color: var(--c-ink);
+}
+
+.d8-title {
+  left: calc(140 * var(--u));
+  top: calc(57 * var(--u));
+  width: calc(1550 * var(--u));
+  height: calc(151.2 * var(--u));
+  text-align: left;
+}
+
+.d8-subtitle {
+  left: calc(536 * var(--u));
+  top: calc(421 * var(--u));
+  width: calc(871 * var(--u));
+  height: calc(151.2 * var(--u));
+  text-align: left;
+}
+
+.d8-slogan {
+  left: calc(440 * var(--u));
+  top: calc(690 * var(--u));
+  width: calc(1065 * var(--u));
+  height: calc(302.4 * var(--u));
+  text-align: center;
+  color: var(--c-grey);
+}
+
+.d8-car {
+  width: calc(136.38 * var(--u));
+  height: calc(60 * var(--u));
+}
+
+.d8-car--1 {
+  left: calc(201 * var(--u));
+  top: calc(473 * var(--u));
+}
+
+.d8-car--2 {
+  left: calc(1730 * var(--u));
+  top: calc(114 * var(--u));
+}
+
+.d8-car--3 {
+  left: calc(1614 * var(--u));
+  top: calc(290 * var(--u));
+}
+
+.d8-car--4 {
+  left: calc(1498 * var(--u));
+  top: calc(473 * var(--u));
+}
+
+.d8-car--5 {
+  left: calc(1155 * var(--u));
+  top: calc(290 * var(--u));
+}
+
+.d8-car--6 {
+  left: calc(696 * var(--u));
+  top: calc(290 * var(--u));
+}
+
+.d8-car--7 {
+  left: calc(-49 * var(--u));
+  top: calc(290 * var(--u));
+}

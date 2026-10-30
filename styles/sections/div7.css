@@ -1,0 +1,99 @@
+.sec--7 {
+  background: var(--c-blue);
+}
+
+.d7-ground {
+  position: absolute;
+  left: 0;
+  top: calc(737 * var(--u));
+  width: calc(1920 * var(--u));
+  height: calc(343 * var(--u));
+  background: var(--c-cream);
+}
+
+.d7-road-edge {
+  position: absolute;
+  left: calc(-37 * var(--u));
+  top: calc(714 * var(--u));
+  width: calc(1991 * var(--u));
+  height: calc(23 * var(--u));
+  background: var(--c-ink);
+}
+
+.d7-road-dashes {
+  left: calc(18 * var(--u));
+  top: calc(897 * var(--u));
+  width: calc(1861 * var(--u));
+  height: calc(23 * var(--u));
+}
+
+.d7-buildings-right {
+  left: calc(1557 * var(--u));
+  top: calc(-176 * var(--u));
+  width: calc(342 * var(--u));
+  height: calc(741.46 * var(--u));
+}
+
+.d7-buildings-middle {
+  left: calc(948 * var(--u));
+  top: calc(-57 * var(--u));
+  width: calc(667 * var(--u));
+  height: calc(583.91 * var(--u));
+}
+
+.d7-buildings-left {
+  left: calc(-38 * var(--u));
+  top: calc(-150 * var(--u));
+  width: calc(378 * var(--u));
+  height: calc(819.5 * var(--u));
+}
+
+.d7-building-main {
+  left: calc(-26 * var(--u));
+  top: calc(-28 * var(--u));
+  width: calc(1060.22 * var(--u));
+  height: calc(708.18 * var(--u));
+}
+
+.d7-title,
+.d7-subtitle {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  font-weight: 400;
+  font-style: italic;
+  font-size: calc(108 * var(--u));
+  line-height: calc(151.2 * var(--u));
+  height: calc(151.2 * var(--u));
+  letter-spacing: 0;
+  text-align: left;
+  white-space: nowrap;
+  color: var(--c-ink);
+}
+
+.d7-title {
+  left: calc(15 * var(--u));
+  top: calc(730.4 * var(--u));
+  width: calc(1565 * var(--u));
+}
+
+.d7-subtitle {
+  left: calc(177 * var(--u));
+  top: calc(917.9 * var(--u));
+  width: calc(1726 * var(--u));
+}
+
+.d7-car-right {
+  left: calc(1683 * var(--u));
+  top: calc(787 * var(--u));
+  width: calc(136.38 * var(--u));
+  height: calc(60 * var(--u));
+}
+
+.d7-car-left {
+  left: calc(-38 * var(--u));
+  top: calc(972 * var(--u));
+  width: calc(136.38 * var(--u));
+  height: calc(60 * var(--u));
+}
